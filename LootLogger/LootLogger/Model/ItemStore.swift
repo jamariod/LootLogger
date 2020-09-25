@@ -24,10 +24,4 @@ class ItemStore {
             allItems.remove(at: index)
         }
     }
-    //Adding five random items
-    init() {
-        for _ in 0..<10 {
-            createItem()
-        }
-    }
 }
